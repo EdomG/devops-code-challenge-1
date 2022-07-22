@@ -20,7 +20,7 @@ Parameters:
     ConstraintDescription: must be a valid IP CIDR range of the form x.x.x.x/x.
   LatestAmiId:
     Type: String
-    Default: 'ami-0caed718d9802551c'
+    Default: 'ami-0cff7528ff583bf9a'
 Resources:
   EC2Instance:
     Type: AWS::EC2::Instance
